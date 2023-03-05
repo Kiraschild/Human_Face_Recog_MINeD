@@ -53,7 +53,7 @@ def fdr():
                 f.writelines(f'\n{name},{dtDate},{dtString}')
                                     
             
-    #markAttendance('Elon')
+  
 
     encodelist_knownfaces = find_encodings(images)
     print(len(encodelist_knownfaces))
