@@ -45,3 +45,6 @@ DATASET:
 
 1. known faces - It consists of images of the known faces (people working in the company)
 2. VID_20230302_170157.mp4 - It is the CCTV footage consisting of workers whose faces we will have to recognize and mark in attendance report accordingly. 
+
+
+PS: Due to Uploading limit of Github, we had to compress the video accordingly. This might have affected the accuracy of our model due to decreased video picture quality. However, it is running perfectly fine on the video that was provided to us by the sponsor
