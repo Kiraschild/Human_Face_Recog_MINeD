@@ -69,7 +69,7 @@ if ch=="Home":
     
 elif ch=="Attendance":
     st.markdown("<h1 style='text-align: center'>ATTENDANCE REPORT</h1>", unsafe_allow_html=True)
-    df=pd.read_csv("C:\\Users\\MOKSHIL\\Desktop\\MINeD\\Attendance.csv")
+    df=pd.read_csv("Attendance.csv")
     st.dataframe(df)
 
 elif ch=="About Us":
