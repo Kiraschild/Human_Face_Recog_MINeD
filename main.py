@@ -101,7 +101,7 @@ def fdr():
                         cv2.putText(img,names,(faceLoc[3]+6,faceLoc[2]-6),cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),3)
 
                 cv2.namedWindow('Video',cv2.WINDOW_NORMAL)
-                cv2.resizeWindow('Video',1000,1000)
+                cv2.resizeWindow('Video',600,1000)
                 cv2.imshow('Video',img)
             
             frame=frame+1        
