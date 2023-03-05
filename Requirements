@@ -7,6 +7,7 @@ The framework required for running this project on your local machine is as foll
     -os
     -pandas
     -datetime
+    -streamlit
     
 2. There might be some problem regarding importing of face_recognition library. To solve that problem 
    first we would need to install the dlib wheel on our system. This dlib wheel will vary according to
